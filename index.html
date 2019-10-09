@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Cultured!</title>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Link to external css reset style sheet-->
+        <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+        <!--Link to bootstrap CSS CDN-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        
+        <!--Link to my custom CSS style sheet-->
+        <link rel="stylesheet" type="text/css" href=assets/css/style.css>
+
+        <!--Link to custom Google font-->
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+            <div class = "row mx-auto title">
+                    <h1 class="text-center">Cultured!</h1>
+                    <p><b>Search for you country within the GIPHY data base and get cultured!</b></p>        
+            </div>
+            <br><br>
+            <div class = "button-div" id = "button-container"></div>
+            <br><br>
+            <div class = "row">       
+                    <div class = "col"></div>
+                    <div class = "col">
+                        <form class="search-bar float-md-right">
+                            <b>Add buttons for your favorite country:</b>
+                            <br>
+                            <input type = "text" name = "country" id = "country" class="css-dec">
+                            <input type = "submit" value = "Add" class = "button" id = "submit">
+                        </form>
+                    </div>
+                    <div class = "css-dec" id = "gif-section"></div>
+            </div>
+    <!--Links to JQuery CDN -->
+     <!--JQuery CDN Link-->
+     <script
+     src="https://code.jquery.com/jquery-3.4.1.min.js"
+     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+     crossorigin="anonymous">
+    </script>
+
+    <!--Link to Bootstrap Javascript CDN-->
+
+    <!--Link to my app.js-->
+    <script src="assets/javascript/app.js"></script>
+    <script src="assets/javascript/countries.js"></script>
+    </body>
+</html>
